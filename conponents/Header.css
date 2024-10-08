@@ -1,0 +1,36 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2e3b4e;
+    color: white;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .nav-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4169e1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #374fc1;
+  }
+  
